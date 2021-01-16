@@ -206,6 +206,7 @@ def yesno(message, default, args):
         return False
     if default:
         message += '? [Y/n] '
+        return True
     else:
         message += '? [N/y] '
     while True:
