@@ -90,7 +90,7 @@ def main():
                         print(name, 'is already synced [content match]')
                     else:
                         print(name, 'has changed since last sync')
-                        if yesno('Refresh %s' % name, False, args):
+                        if yesno('Refresh %s' % name, True, args):
                             upload(dbx, fullname, folder, subfolder, name,
                                    overwrite=True)
             elif yesno('Upload %s' % name, True, args):
