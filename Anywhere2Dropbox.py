@@ -197,7 +197,7 @@ def yesno(message, default, args):
     """
     if args.default:
         print(message + '? [auto] YES')
-        return default
+        return True
     if args.yes:
         print(message + '? [auto] YES')
         return True
