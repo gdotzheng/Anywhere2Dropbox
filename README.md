@@ -15,12 +15,10 @@ pip install dropbox
 ```
 git clone https://github.com/gdotzheng/Anywhere2Dropbox.git
 ```
-2) Edit ```Anywhere2Dropbox.py``` with your Dropbox access TOKEN
+2) Edit ```Anywhere2Dropbox.py``` with your Dropbox access TOKEN. [Tutorial on how to get your Dropbox access TOKEN here](https://www.iperiusbackup.net/en/create-dropbox-app-get-authentication-token/)
 ```
 TOKEN = 'your TOKEN here'
 ```
-[Tutorial on how to get your Dropbox access TOKEN here](https://www.iperiusbackup.net/en/create-dropbox-app-get-authentication-token/)
-
 3) Run the script
 ```
 python Anywhere2Dropbox.py
